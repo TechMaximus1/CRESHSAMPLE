@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+}
+
+header{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-around; 
+}
+
+/* .head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+} */
+
+header> nav> ul{
+    list-style: none;
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}
+
+.ban{
+    background-image:url('backGround.jpeg');
+}
